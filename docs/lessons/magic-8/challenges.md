@@ -84,9 +84,9 @@ input.onGesture(Gesture.Shake, () => {
     basic.clearScreen()
     let randomNumber = randint(0, 4)
     if (randomNumber == 4) {
-        basic.showString("DEFINATELY")
+        basic.showString("FOR SURE")
     } else if (randomNumber == 3) {
-        basic.showString("TRY AGAIN")
+        basic.showString("ASK ME LATER")
     } else if (randomNumber == 2) {
         basic.showString("YES")
     } else if (randomNumber == 1) {
